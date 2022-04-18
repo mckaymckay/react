@@ -12,6 +12,7 @@ export default class APP extends Component {
     componentDidMount() {
         new BetterScroll('#wrapper')
         // DOM创建完之后，进行 BetterScroll
+        // 啦啦啦
     }
     render() {
         return (
@@ -20,6 +21,7 @@ export default class APP extends Component {
                     <ul>
                         {this.state.list.map(v =>
                             <li key={v}>{v}</li>)}
+
                     </ul>
                 </div>
             </div>
