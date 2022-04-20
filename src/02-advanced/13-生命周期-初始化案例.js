@@ -21,7 +21,6 @@ export default class APP extends Component {
                     <ul>
                         {this.state.list.map(v =>
                             <li key={v}>{v}</li>)}
-
                     </ul>
                 </div>
             </div>

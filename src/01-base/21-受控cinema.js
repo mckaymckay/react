@@ -33,7 +33,7 @@ export default class Cinema extends Component {
     render() {
         return (
             <div>
-                {/* 把 input 变成一个手控的组件, 可以让它的值在input外部使用, 通信方便*/}
+                {/* 把 input 变成一个受控的组件, 可以让它的值在input外部使用, 通信方便*/}
                 {/* 把每次获得的输入框的 value 值都同步给 mytext */}
                 {/* value 与 state绑定，value变化，state就变化，render就重新渲染 */}
                 <input value={this.state.mytext} onChange={(evt) => {
