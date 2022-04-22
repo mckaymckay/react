@@ -28,6 +28,9 @@ export default class APP extends Component {
 
 
 class Filmlist extends Component {
+    state = {
+        list: []
+    }
     componentDidMount() {
         if (this.props.type === 1) {
             console.log('正在热映')
@@ -96,6 +99,10 @@ class Filmlist extends Component {
         return <div>
 
             child-{this.props.type}
+            <ul>
+                {this.state.list.map(v =>
+                    <li key={v.filmId}>{v.name}</li>)}
+            </ul>
         </div>
     }
 }

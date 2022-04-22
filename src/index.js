@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import App from './02-advanced/27-swiper-封装组件'
+import App from './03-hooks/16-自定义hooks'
 
 ReactDOM.render(<App></App>, document.getElementById('root'))

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 12px/1.5 Tahoma,Helvetica,Arial,sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+
+}
+ul li{
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+}
+.active{
+    color: brown;
+}
+dl{
+    height: 50px;
+    border-bottom: 1px solid rgb(204, 200, 200);
+    padding: 5px 0 0 10px
+}
+dl dd{
+    font-size: 15px;
+    color: #444;
+}
+dl dt{
+    font-size: 12px;
+    color: gray;
+    margin-left: 2px;
+}
+input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+

@@ -1,0 +1,18 @@
+.filmitem{
+    overflow: hidden;
+}
+.filmitem img{
+    float: left;
+    width: 100px;
+    margin: 0 10px 10px 0;
+}
+.filmdetail{
+    position: fixed;
+    right: 0;
+    top: 100px;
+    background: yellow;
+    width: 300px;
+    height: 300px;
+    /* overflow: hidden; */
+    text-overflow:ellipsis;
+}
