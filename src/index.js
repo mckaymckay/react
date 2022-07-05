@@ -1,6 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './06-react-redux/App'
+import { Provider } from 'react-redux'
+import store from './06-react-redux/redux/store'
 
-import App from './03-hooks/16-自定义hooks'
-
-ReactDOM.render(<App></App>, document.getElementById('root'))
+ReactDOM.render(
+    <Provider store={store}>
+        <App></App>
+    </Provider>
+    , document.getElementById('root'))
