@@ -1,0 +1,14 @@
+.mactive{
+    border-bottom: 1px solid green;
+    color: green;
+}
+.film ul li{
+    list-style: none;
+}
+
+
+
+/* 
+对于class、id等可以准确识别
+对于ul、li等标签选择器会是全局的影响 
+*/
